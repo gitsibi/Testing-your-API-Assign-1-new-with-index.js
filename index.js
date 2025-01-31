@@ -36,7 +36,7 @@ const express = require('express');
 const fs = require('fs');
 const app = express();
 const port = 3000;
-const students = require('./data.json'); 
+const studentsData = require('./data.json'); 
 
 app.use(express.json());
 
